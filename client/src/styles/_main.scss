@@ -1,0 +1,104 @@
+// Login form
+.login-container {
+  height: calc(100vh - 100px);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 441px;
+    height: 421px;
+    background-color: #262626;
+
+    .form-container h1 {
+      font-family: "Roboto", sans-serif;
+      color: white;
+    }
+
+    .form-container input {
+      width: 100%;
+      height: 35px;
+      border: none;
+      text-indent: 10px;
+    }
+
+    .form-container label {
+      text-align: left;
+      color: white;
+      margin-bottom: 20px;
+    }
+  }
+
+  .form-input {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .btn {
+    height: 35px;
+    width: 30%;
+    background: linear-gradient(to right, #4563bf, #448ff2);
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  input {
+    height: 40px;
+    width: 100%;
+    background: white;
+    border: none;
+  }
+
+  button {
+    margin-bottom: 20px;
+  }
+}
+
+// Nav container
+
+.nav-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 50px auto;
+  grid-template-areas:
+    "s n n n n"
+    "s m m m m";
+  main {
+    grid-area: m;
+  }
+}
+
+// Sidebar
+
+.sidebar-nav {
+  grid-area: s;
+  height: 100vh;
+  background: #303030;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  ul {
+    padding: 0px;
+  }
+  li {
+    list-style: none;
+  }
+  img {
+    width: 200px;
+  }
+}
+
+// Navigation
+
+.nav {
+  background: #303030;
+  grid-area: n;
+  a {
+    color: black;
+  }
+}

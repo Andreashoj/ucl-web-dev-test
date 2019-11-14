@@ -1,0 +1,6 @@
+**/*.css.map
+.vs/*
+README.md
+client/node_modules
+node_modules
+

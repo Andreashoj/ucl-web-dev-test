@@ -1,0 +1,80 @@
+[
+  {
+    "_id": 2355,
+    "name": "Machine 2355",
+    "activeStackId": 2349,
+    "statusCodeId": 200,
+    "statusChanged": "2019/11/14",
+    "statusCode": [
+      {
+        "_id": 0,
+        "name": "working",
+        "type": "ok"  
+      }
+    ],
+    "stacks": [
+      {
+        "_id": 2349,
+        "description": "Description text ",
+        "priority": 1, 
+        "estTime": 2.40,
+        "active": true,
+        "jobs": [
+          {
+            "_id": 2386,
+            "estTime": 5
+          },
+          {
+            "_id": 2387,
+            "estTime": 4
+          },
+          {
+            "_id":2388,
+            "estTime":10
+          }
+        ]
+      },
+      {
+        "_id": 2350,
+        "description": "Second Description text on another Stack  ",
+        "priority": 2, 
+        "active": false,
+        "jobs": [
+          {
+            "_id": 2389,
+            "estTime": 5
+          },
+          {
+            "_id": 2390,
+            "estTime": 4
+          },
+          {
+            "_id":2391,
+            "estTime":10
+          }
+        ]
+      },
+      {
+        "_id": 2351,
+        "description": "third Description text on another Stack  ",
+        "priority": 3, 
+        "active": false,
+        "jobs": [
+          {
+            "_id": 2392,
+            "estTime": 5
+          },
+          {
+            "_id": 2393,
+            "estTime": 4
+          },
+          {
+            "_id":2394,
+            "estTime":10
+          }
+        ]
+      }
+    ]
+  }
+]
+
